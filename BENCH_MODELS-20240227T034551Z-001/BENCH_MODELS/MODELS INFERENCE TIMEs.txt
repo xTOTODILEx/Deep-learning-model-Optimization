@@ -1,0 +1,61 @@
+MODELS INFERENCE TIME
+
+ALL MODELS REFERENCE https://pytorch.org/vision/0.9/models.html#id1
+
+MODEL 1
+ALEXNET
+FLOPS = 475805888
+Trainable Parameters = 611008
+PRE INFERENCE TIME = 0.6638s
+POST INFERENCE TIME = 0.3174s
+
+Referenece: https://pytorch.org/vision/0.9/_modules/torchvision/models/alexnet.html#alexnet
+
+MODEL 2:
+VGG
+FLOPS: 1004590956544
+Total trainable parameters = 143667240
+PRE INFERENCE TIME = 2.5904s
+Post inference = 0.4285s
+
+MODEL 3: 
+RESNET
+FLOPS = 883453952
+Total trainable parameters = 25557032
+Pre inference time = 1.0911s 
+Post inference time = 0.2233s
+
+MODEL 4: 
+SqueezeNet
+FLOPS = 78414144
+Total trainable parameters = 1235496
+Pre inference time = 0.7966s 
+Post inference time = 0.1663s
+
+MODEL 5: 
+DenseNet
+FLOPS = 21545996288
+Total trainable parameters = 7978856
+Pre inference time = 1.0132s
+Post inference time = 0.4697s
+
+MODEL 6: 
+ShuffleNet V2 X1.0
+FLOPS = 11632608
+Total trainable parameters = 2278604
+Pre inference time = 4.7121s
+Post inference time = 0.3463s
+
+MODEL 7: 
+MobileNet V2
+FLOPS = 150356480
+Total trainable parameters = 3504872
+Pre inference time = 5.0379s
+Post inference time = 0.3003s
+
+MODEL 8: 
+ResNext V2
+FLOPS = 2466082816
+Total trainable parameters = 25028904
+Pre inference time = 2.0964s
+Post inference time = 0.2600s
